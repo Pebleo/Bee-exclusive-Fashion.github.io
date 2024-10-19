@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'merriweather', serif;
+}
+/*top navbar */
+.top-navbar{
+    display: flexbox;
+    justify-content: space-between;
+    background-color: rgba(21, 145, 212, 0.242);
+
+}
+.top-navbar p{
+    margin-top: 13px;
+    margin-right: 15px;
+}
+.top-navbar .icons{
+    margin-top: 13px;
+    margin-right: 15px;
+}
+.top-navbar a{
+    text-decoration: none;
+    color: rgb(42, 22, 9);
+    margin-left: 10px;
+}
+.top-navbar a img{
+    margin-bottom: 3px;
+}
+.top-navbar a:hover{
+    color: black;
+}
+@media screen and (max-width:400px){
+    .top-navbar a{
+        font-size: 13px;
+    }
+    .top-navbar a img{
+        width: 15px;
+    }
+    .top-navbar p{
+        font-size: 13px;
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:318px){
+    .top-navbar a{
+        font-size: 8px;
+        margin-left: 0;
+    }
+    .top-navbar a img{
+        width: 13px;
+        margin-left: 0px;
+    }
+    .top-navbar p{
+        font-size: 10px;
+        margin-top: 20px;
+    }
+}
+
+
+/*top navbar */
+
+/* navbar */
+#navbar{
+    background-color: aqua;
+}
+#logo{
+margin-left: 15px;
+color: rgba(255, 14, 203, 0.579);
+font-size: 25px;
+font-weight: bold;
+margin-bottom: 6px;
+}
+#logo span{
+    color: yellowgreen;
+}
+#logo #span1{
+    font-size: 30px;
+}
+.navbar-nav{
+    margin-left: 20px;
+}
+.nav-item{
+    margin-left: 10px;
+}
+.nav-item .nav-link{
+    color: rgb(13, 114, 173);
+    margin-left: 2px;
+    text-shadow: 0px 0px 1px black;
+    transition: 0.5s ease;
+}
+.nav-item .nav-link:hover{
+    color: rgb(255, 0, 0);
+}
+
+/* navbar */
+
+
+
+/* home content*/
+.home{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    background-color: rgb(253, 255, 254);
+    z-index: 0;
+}
+.home .img{
+    flex: 1 1 100px;
+}
+.home .img img{
+    margin-top: 20px;
+    width: 100%;
+}
+.home.content{
+    flex: 1 1 200px;
+    margin-top: 20px;
+}
+.content h1{
+    color: rgb(67 0 86);
+    font-weight: bold;
+    margin-left: 23px;
+    font-size: 55px;
+    text-shadow: -1px 1px 1px black;
+}
+.content h1 span{
+    color: rgba(199, 28, 205, 0.762);
+    text-shadow: 1px 1px 1px rgb(48, 119, 182);
+}
+#span2{
+    color: rgb(12, 154, 193);
+}
+.content p{
+    margin-left: 23px;
+}
+.btn{
+    margin-left: 13px;
+}
+.btn button{
+    width: 150px;
+    height: 32px;
+    letter-spacing: 3px;
+    background-color: aqua;
+    color: rgb(222, 9, 48);
+    border-radius: 5px;
+    border: none;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color: aqua;
+    color: black;
+    border: none;
+}
+@media screen and (max-width:1200px){
+    .home{
+        height: 90vh;
+    }
+} 
+@media screen and (max-width:799px){
+    .home{
+        height: 140vh;
+    }
+} 
+@media screen and (max-width:550px){
+    .home{
+        height: 110vh;
+    }
+} 
+@media screen and (max-width:420px){
+    .content h1{
+        font-size: 45px;
+    }
+} 
+@media screen and (max-width:320px){
+    .content h1{
+        font-size: 35px;
+    }
+} 
+/* home content*/
+
+
+
+/* product cards */
+#product-cards{
+    margin-top: 100px;
+}
+#product-cards h1{
+    color: rgb(0, 60, 255);
+    text-shadow: aqua;
+    border-bottom: 2px solid hsl(0, 94%, 43%);
+}
+#product-card .card h3{
+    font-size: 25px;
+    color: black;
+}
+#product-card .card p{
+    font-size: 12px;
+    color: black;
+
+}
+.star i{
+    margin-left: 5px;
+    font-size: 13px;
+}
+.checked{
+    color: yellow;
+}
+#product-cards .card h2{
+    font-size:  20px;
+    color: rgb(20, 196, 255);
+    margin-top: 20px;
+}
+#product-cards .card h2 span{
+    float: right;
+    color: rgb(244, 37, 182);
+    cursor: pointer;
+}
+@media screen and (max-width:1000px){
+    #product-cards .card h3{
+        font-size: 18px;
+        
+    }
+}
+
+/* product card */
+
+
+
+
+/* other card */
+#other-cards{
+    margin-top: 30px;
+}
+#other-cards .card{
+    background-color: rgb(62, 12, 170);
+}
+#other-cards .card h3{
+    margin-top: 30px;
+    color: black;
+    margin-left: 10px;
+    letter-spacing: 3px;
+}
+#other-cards .card h5{
+    margin-top: 15px;
+    font-weight: 100px;
+    font-size: 18px;
+    color: black;
+    margin-left: 10px;
+    letter-spacing: 3px;
+    border: 2px solid black;
+    width: 300px;
+}
+
+/* other card */
+
+
+
+
+/*-- banner --*/
+.banner{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    background-color: rgb(248, 252, 255);
+    z-index: 0;
+}
+.banner .img{
+    flex: 1 1 300px;
+}
+.banner .img img{
+    margin-top: 30px;
+    width: 100%;
+}
+.banner.content{
+    flex: 1 1 400px;
+    margin-top: 20px;
+}
+.banner .content h1{
+    color: rgb(67 0 86);
+    font-weight: bold;
+    margin-left: 23px;
+    font-size: 55px;
+    text-shadow: -1px 1px 1px black;
+}
+.banner.content h1 span{
+    color: chartreuse;
+    text-shadow: 1px 1px 1px black;
+}
+#span2{
+    color: chartreuse;
+}
+.banner .content p{
+    margin-left: 23px;
+}
+.btn{
+    margin-left: 13px;
+}
+.btn button{
+    width: 150px;
+    height: 32px;
+    letter-spacing: 3px;
+    background-color: aqua;
+    color: rgb(222, 9, 48);
+    border-radius: 5px;
+    border: none;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color: aqua;
+    color: black;
+    border: none;
+}
+@media screen and (max-width:1200px){
+    .banner{
+        height: 90vh;
+    }
+} 
+@media screen and (max-width:799px){
+    .banner{
+        height: 140vh;
+    }
+} 
+@media screen and (max-width:550px){
+    .banner{
+        height: 110vh;
+    }
+} 
+@media screen and (max-width:420px){
+    .banner .content h1{
+        font-size: 45px;
+    }
+} 
+@media screen and (max-width:320px){
+    .banner .content h1{
+        font-size: 35px;
+    }
+} 
+/*-- banner --*/
+
+
+
+footer {
+    position: relative;
+    width: 100%;
+    background-color: #3586ff;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .social_icon{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+footer .social_icon li {
+    list-style: none;
+}
+footer .social_icon li a {
+    font-size: 2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+footer .social_icon li a:hover{
+    transform: translateY(-10px);
+}
